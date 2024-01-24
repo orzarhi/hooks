@@ -1,5 +1,5 @@
 import './App.css'
-import { Demo } from './hooks/use-effect'
+import { Demo } from './hooks/use-state'
 function App() {
 
   return (
