@@ -1,5 +1,5 @@
 import './App.css'
-import { Demo } from './hooks/use-memo'
+import { Demo } from './hooks/use-effect'
 function App() {
 
   return (
