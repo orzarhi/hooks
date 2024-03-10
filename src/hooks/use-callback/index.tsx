@@ -1,7 +1,5 @@
 import { useCallback, useState } from 'react';
-
 import { shuffle } from './utils';
-
 import Search from './Search';
 
 const allUsers = [
@@ -11,7 +9,6 @@ const allUsers = [
     'simon',
     'james',
 ];
-
 
 export const Demo = () => {
     const [users, setUsers] = useState(allUsers);
@@ -32,7 +29,7 @@ export const Demo = () => {
 
                 <Search onChange={handleSearch} />
             </div>
-            <ul >
+            <ul>
                 {users.map((user) => (
                     <li key={user} className='list-none'>{user}</li>
                 ))}

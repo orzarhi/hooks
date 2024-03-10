@@ -1,5 +1,5 @@
 import './App.css'
-import { Demo } from './hooks/use-callback'
+import { Demo } from './hooks/use-debounce'
 function App() {
 
   return (
